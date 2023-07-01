@@ -14,6 +14,10 @@
   padding: 30px 135px 30px 135px;
   gap: 64px;
   margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .top__header {
   width: 1170px;
@@ -74,18 +78,116 @@ span {
   width: 1170px;
   height: 750px;
   gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .section-1 {
+  width: 590px;
+  height: 709px;
+  gap: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .box-1 {
+  width: 590px;
+  height: 557px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .box__but {
+  width: 213px;
+  height: 53px;
+  padding: 16px;
+  border-radius: 100px;
+  gap: 16px;
+  background: rgba(255, 240, 220, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #fb9333;
+}
+.box__but:nth-child(4) {
+  width: 192px;
+  height: 68px;
+  padding: 24px 32px 24px 32px;
+  border-radius: 100px;
+  gap: 16px;
+  background: rgba(251, 147, 51, 1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #ffffff;
 }
 .box__txt-1 {
+  color: #575757;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: -0.02em;
 }
 .box__txt-2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.02em;
 }
 .box-2 {
+  width: 352px;
+  height: 64px;
+  gap: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.txt-1 {
+  color: #575757;
+  font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.txt-2 {
+  color: #828282;
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.customer {
+  width: 85px;
+  height: 64px;
+}
+.delivery {
+  width: 85px;
+  height: 64px;
+}
+.rating {
+  width: 78px;
+  height: 64px;
 }
 .section-2 {
+  display: flex;
+  width: 658.256px;
+  height: 750px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.section__img {
+  width: 658.256px;
+  height: 750px;
+  flex-shrink: 0;
 }
