@@ -57,6 +57,7 @@ span {
   line-height: 21px;
   color: #575757;
   transition: 0.3s ease;
+  position: relative;
 }
 
 .nav__link:hover{
@@ -65,6 +66,21 @@ span {
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
+}
+
+.nav__link::before { 
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 10%;
+  background-color: #FB9333;
+  bottom: 0;
+  left: 0;
+  transition: 0.6s;
+}
+
+.nav__link:hover::before{
+  width: 100%;
 }
 .header__but {
   width: 130px;
