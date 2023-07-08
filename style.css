@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ span {
   position: relative;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: rgba(251, 147, 0, 1);
   font-family: Poppins;
   font-size: 16px;
@@ -68,18 +68,18 @@ span {
   line-height: 21px;
 }
 
-.nav__link::before { 
+.nav__link::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 0%;
   height: 10%;
-  background-color: #FB9333;
+  background-color: #fb9333;
   bottom: 0;
   left: 0;
   transition: 0.6s;
 }
 
-.nav__link:hover::before{
+.nav__link:hover::before {
   width: 100%;
 }
 .header__but {
@@ -216,7 +216,6 @@ span {
 
 .main {
   margin: 0 auto;
-
 }
 .Y_container-1 {
   width: 100vw;
@@ -233,19 +232,18 @@ span {
   justify-content: space-between;
 }
 
-
-.Y_frame-1{
+.Y_frame-1 {
   width: 585px;
   height: 134px;
 }
 
-.Y_frame-2{
+.Y_frame-2 {
   width: 400px;
   height: 134px;
 }
 
-.Y_txt-1{
-  font-family: 'Poppins';
+.Y_txt-1 {
+  font-family: "Poppins";
   font-size: 48px;
   font-weight: 600;
   line-height: 67px;
@@ -253,11 +251,11 @@ span {
   text-align: left;
   color: #585858;
 }
-.Y_orng_txt{
+.Y_orng_txt {
   color: #fb9333;
 }
 
-.Y_txt-2{
+.Y_txt-2 {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
@@ -265,7 +263,6 @@ span {
   etter-spacing: -0.02em;
   text-align: left;
   color: #828282;
-
 }
 
 .Y_frame-35 {
@@ -277,17 +274,17 @@ span {
   flex-direction: row;
 }
 
-.Y_card{
-  width:  365px;
+.Y_card {
+  width: 365px;
   height: 468px;
-  border: 1px solid #FFF0DA;
+  border: 1px solid #fff0da;
   border-radius: 20px;
-  box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.20);
+  box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2);
   cursor: pointer;
   transition: 0.3s ease;
 }
 
-.Y_frame-25{
+.Y_frame-25 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -306,10 +303,10 @@ span {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
-  align-self: stretch;  
+  align-self: stretch;
 }
 .Y_24_ttl {
-  color: var(--2-b-2-b-2-b, #2B2B2B);
+  color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -334,18 +331,20 @@ span {
   cursor: pointer;
 }
 
-.Y_24_btn:hover{
-  background-color: #FB9333 ;
-  
+.Y_24_btn:hover {
+  background-color: #fb9333;
 }
 
-
-.Y_card:hover{
+.Y_card:hover {
   box-shadow: 0px 50px 180px -30px rgba(255, 219, 126, 0.2);
 }
 
-.L_main{
-  background: linear-gradient(180deg, #FFF6EA 0%, rgba(255, 232, 199, 0.50) 100%);
+.L_main {
+  background: linear-gradient(
+    180deg,
+    #fff6ea 0%,
+    rgba(255, 232, 199, 0.5) 100%
+  );
   width: 100%;
   height: 682px;
   display: flex;
@@ -372,10 +371,9 @@ span {
   flex-direction: column;
 }
 .L_box-p {
-
   width: 415px;
   height: 72px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -390,16 +388,16 @@ span {
   justify-content: space-between;
 }
 
-.L_h1-span{
-  font-family: 'Poppins', sans-serif;
+.L_h1-span {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 63.984px;
   font-style: normal;
-  color: #FB9333;
+  color: #fb9333;
 }
-.L_box-h1-1{
-  font-family: 'Poppins', sans-serif;
+.L_box-h1-1 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 48px;
   font-style: normal;
@@ -410,7 +408,7 @@ span {
   display: flex;
   align-items: center;
 }
-.L_box-text{
+.L_box-text {
   width: 112px;
   height: 64px;
 
@@ -424,24 +422,20 @@ span {
 
   display: flex;
   align-items: center;
-
 }
 .L_box-text-2 {
   width: 40%;
   height: 100%;
   display: flex;
   align-items: bottom;
-
 }
-.text_1-p{
+.text_1-p {
   font-family: Raleway;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-
 }
-.text_2-p{
-
+.text_2-p {
   font-family: Raleway;
   padding-top: 20px;
   font-family: Raleway;
@@ -449,17 +443,17 @@ span {
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
-  color: var(--text-disable, #CCC);
+  color: var(--text-disable, #ccc);
 }
 .L_oth-img1 {
   background-image: url(./Previous\ Button.png);
-  background-size: cover ;
+  background-size: cover;
   width: 56px;
   height: 56px;
 }
 .L_oth-img2 {
   background-image: url(./Next\ Button.png);
-  background-size: cover ;
+  background-size: cover;
   width: 56px;
   height: 56px;
 }
@@ -481,24 +475,23 @@ span {
   border-radius: 8px;
   position: absolute;
   margin-left: 23px;
-  background-image: url(./Container\ \(1\).png);
+  background-image: url(./Container\\(1\).png);
 }
 .L_card-main-1 {
   width: 269px;
   height: 402px;
   margin-top: 40px;
   border-radius: 8px;
-  background: #FFF;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
 }
 .card1-h {
   width: 181px;
   height: 32px;
-  color: var(--2-b-2-b-2-b, #2B2B2B);
+  color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -526,7 +519,7 @@ span {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.32px;
-}   
+}
 .L_card-img-2 {
   width: 90px;
   height: 90px;
@@ -540,7 +533,7 @@ span {
   height: 402px;
   margin-top: 40px;
   border-radius: 8px;
-  background: #FFF;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -552,22 +545,22 @@ span {
   border-radius: 8px;
   position: absolute;
   margin-left: 23px;
-  background-image: url(./Image\ Placeholder\ \(1\).png);
+  background-image: url(./Image\Placeholder\\(1\).png);
 }
 .L_card-main-3 {
   width: 269px;
   height: 402px;
   margin-top: 40px;
   border-radius: 8px;
-  background: #FFF;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
-.L_card-box{
+.L_card-box {
   width: 225px;
-  height: 280px;  
+  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -597,7 +590,7 @@ span {
   justify-content: space-around;
 }
 .L_text-hm2 {
-  color: var(--fb-9333, #FB9333);
+  color: var(--fb-9333, #fb9333);
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
@@ -651,7 +644,7 @@ span {
   margin-top: 350px;
 }
 .L-card-text-1m2 {
-  color: var(--ffffff, #FFF);
+  color: var(--ffffff, #fff);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -659,7 +652,7 @@ span {
   line-height: 130%;
 }
 .L-card-texr-2m2 {
-  color: var(--ffffff, #FFF);
+  color: var(--ffffff, #fff);
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
@@ -679,13 +672,13 @@ span {
   width: 363.333px;
   height: 520px;
   border-radius: 50px;
-  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\ 1\ \(1\).png);
+  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\1\\(1\).png);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.L-m2-span{
-  color: #FB9333;
+.L-m2-span {
+  color: #fb9333;
   text-align: center;
   font-family: Poppins;
   font-size: 48px;
@@ -693,4 +686,108 @@ span {
   font-weight: 600;
   line-height: 140%;
   letter-spacing: -0.96px;
+}
+.I_container-2 {
+  width: 1170px;
+  height: 552px;
+  margin: 100px auto;
+}
+.I_subscribe {
+  width: 1170px;
+  height: 552px;
+  border-radius: 50px;
+  background: #fff1de;
+}
+.I_box {
+  width: 700px;
+  height: 406px;
+  padding: 48px 235px 98px 235px;
+}
+.I_section-1 {
+  width: 655px;
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.I_txt-1 {
+  color: var(--fb-9333, #fb9333);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: -0.4px;
+  width: 450px;
+  height: auto;
+}
+.I_txt-2 {
+  color: #585858;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.96px;
+}
+.I_txt-3 {
+  color: var(--575757, #575757);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  width: 462px;
+  opacity: 0.699999988079071;
+  margin-top: 24px;
+}
+.I_section-2 {
+  width: 700px;
+  height: 80px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 8px 20px -30px rgba(151, 109, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px 10px 31px;
+  margin-top: 80px;
+}
+.I_input {
+  width: 300px;
+  height: 80px;
+  background-color: transparent;
+}
+.I_input::placeholder {
+  color: var(--575757, #575757);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.36px;
+  opacity: 0.699999988079071;
+  width: 236px;
+  height: 45px;
+}
+.I_but__input {
+  width: 170px;
+  height: 64px;
+  padding: 10px 16px;
+  border-radius: 100px;
+  background: var(--fb-9333, #fb9333);
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.36px;
 }
