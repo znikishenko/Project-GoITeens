@@ -49,19 +49,22 @@ span {
   align-items: center;
   justify-content: space-between;
 }
-.nav__link:nth-child(1) {
-  color: rgba(251, 147, 0, 1);
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 21px;
-}
+
 .nav__link {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
   color: #575757;
+  transition: 0.3s ease;
+}
+
+.nav__link:hover{
+  color: rgba(251, 147, 0, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
 }
 .header__but {
   width: 130px;
@@ -74,6 +77,7 @@ span {
   font-weight: 600;
   line-height: 21px;
   color: #fff;
+  cursor: pointer;
 }
 .main__header {
   width: 1170px;
@@ -113,6 +117,7 @@ span {
   font-weight: 600;
   line-height: 21px;
   color: #fb9333;
+  cursor: pointer;
 }
 .box__but:nth-child(4) {
   width: 192px;
@@ -262,7 +267,8 @@ span {
   border: 1px solid #FFF0DA;
   border-radius: 20px;
   box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.20);
-
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .Y_frame-25{
@@ -273,14 +279,12 @@ span {
   flex: 1 0 0;
   width: 303px;
   height: 407px;
-
   margin: 30px auto;
 }
 
 .Y_frame-24 {
   width: 303px;
   height: 142px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -320,4 +324,6 @@ span {
 }
 
 
-
+.Y_card:hover{
+  box-shadow: 0px 50px 180px -30px rgba(255, 219, 126, 0.2);
+}
