@@ -260,7 +260,7 @@ span {
   font-size: 20px;
   font-weight: 500;
   line-height: 36px;
-  etter-spacing: -0.02em;
+  letter-spacing: -0.02em;
   text-align: left;
   color: #828282;
 }
@@ -475,7 +475,7 @@ span {
   border-radius: 8px;
   position: absolute;
   margin-left: 23px;
-  background-image: url(./Container\\(1\).png);
+  background-image: url(./Container.png);
 }
 .L_card-main-1 {
   width: 269px;
@@ -545,7 +545,7 @@ span {
   border-radius: 8px;
   position: absolute;
   margin-left: 23px;
-  background-image: url(./Image\Placeholder\\(1\).png);
+  background-image: url(./Image\ Placeholder\ 1.png);
 }
 .L_card-main-3 {
   width: 269px;
@@ -672,7 +672,7 @@ span {
   width: 363.333px;
   height: 520px;
   border-radius: 50px;
-  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\1\\(1\).png);
+  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\ 2.png);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -790,4 +790,5 @@ span {
   font-weight: 500;
   line-height: 140%;
   letter-spacing: -0.36px;
+  cursor: pointer;
 }
