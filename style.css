@@ -132,12 +132,12 @@ span {
   padding: 16px;
   border-radius: 100px;
   gap: 16px;
-  background: rgba(255, 240, 220, 1);
+  background: rgb(0, 20, 81);
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   line-height: 21px;
-  color: #fb9333;
+  color: #ffffff;
   cursor: pointer;
 }
 .box__but:nth-child(4) {
@@ -146,12 +146,13 @@ span {
   padding: 24px 32px 24px 32px;
   border-radius: 100px;
   gap: 16px;
-  background: rgba(251, 147, 51, 1);
+  background: rgb(255, 255, 255);
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
-  color: #ffffff;
+  border: 2px solid rgb(0, 20, 81);
+  color: rgb(0, 20, 81);
 }
 .box__txt-1 {
   color: #575757;
@@ -161,15 +162,15 @@ span {
   line-height: 94px;
   letter-spacing: -0.02em;
 }
-.orange {
-  color: var(--fb-9333, #fb9333);
+.blue {
   font-family: Poppins;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 93.6px */
-  letter-spacing: -1.44px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #008cff;
 }
+
 .box__txt-2 {
   font-family: Poppins;
   font-size: 20px;
@@ -225,7 +226,10 @@ span {
 .section__img {
   width: 658.256px;
 }
-
+.section__img-2 {
+  position: absolute;
+  display: none;
+}
 .main {
   margin: 0 auto;
 }
