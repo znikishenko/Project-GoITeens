@@ -225,6 +225,7 @@ span {
 }
 .section__img {
   width: 658.256px;
+  filter: drop-shadow(10px 5px 10px black);
 }
 .section__img-2 {
   position: absolute;
