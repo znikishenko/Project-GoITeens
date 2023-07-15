@@ -368,11 +368,12 @@ span {
     #fff6ea 0%,
     rgba(255, 232, 199, 0.5) 100%
   );
-  width: 100%;
+  width: 99%;
   height: 682px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 auto;
 }
 .L_box-1 {
   width: 415px;
