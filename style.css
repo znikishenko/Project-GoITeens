@@ -377,7 +377,8 @@ span {
 }
 
 .Y_24_btn:hover {
-  background-color: #fb9333;
+  background-color: #1b0228;
+  color: #fff;
 }
 
 .Y_card:hover {
@@ -387,8 +388,8 @@ span {
 .L_main {
   background: linear-gradient(
     180deg,
-    rgb(255, 255, 255) 0%,
-    rgba(249, 249, 248, 0.5) 100%
+    #fff6ea 0%,
+    rgba(255, 232, 199, 0.5) 100%
   );
   width: 100%;
   height: 682px;
@@ -410,6 +411,7 @@ span {
 .L_box-h1 {
   width: 415px;
   height: 326px;
+
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -439,7 +441,7 @@ span {
   font-size: 48px;
   line-height: 63.984px;
   font-style: normal;
-  color: #2e0fa0;
+  color: #fb9333;
 }
 .L_box-h1-1 {
   font-family: "Poppins", sans-serif;
@@ -491,18 +493,16 @@ span {
   color: var(--text-disable, #ccc);
 }
 .L_oth-img1 {
-  background-image: url(./img/imgonline-com-ua-Replace-color-qtgBPDGDh7vfsvQ.jpg);
+  background-image: url(./Previous\ Button.png);
   background-size: cover;
   width: 56px;
   height: 56px;
-  border-radius: 10px;
 }
 .L_oth-img2 {
-  background-image: url(./img/imgonline-com-ua-Replace-color-JccnQSj8m60qWV5O.jpg);
+  background-image: url(./Next\ Button.png);
   background-size: cover;
   width: 56px;
   height: 56px;
-  border-radius: 10px;
 }
 .L_box-2 {
   width: 895px;
@@ -529,17 +529,16 @@ span {
   height: 402px;
   margin-top: 40px;
   border-radius: 8px;
-  background-color: #a8a8a8;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  box-shadow: rgba(43, 89, 207, 0.526) 0 0 40px 0;
 }
 .card1-h {
   width: 181px;
   height: 32px;
-  color: var(--2-b-2-b-2-b, #000000);
+  color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -550,7 +549,7 @@ span {
 .card1-p {
   width: 155px;
   height: 21px;
-  color: var(--text-default-in-field, #000000);
+  color: var(--text-default-in-field, #999);
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -560,7 +559,7 @@ span {
 .card1-text {
   width: 221px;
   height: 168px;
-  color: var(--575757, #000000);
+  color: var(--575757, #575757);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -586,11 +585,6 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(
-    180deg,
-    rgb(203, 197, 197) 0%,
-    rgba(98, 98, 94, 0.5) 100%);
-    box-shadow: rgba(43, 89, 207, 0.526) 0 0 40px 0;
 }
 .L_card-img-3 {
   width: 90px;
@@ -610,8 +604,6 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #a8a8a8;
-    box-shadow: rgba(43, 89, 207, 0.526) 0 0 40px 0;
 }
 .L_card-box {
   width: 225px;
@@ -645,7 +637,7 @@ span {
   justify-content: space-around;
 }
 .L_text-hm2 {
-  color: #333;
+  color: var(--fb-9333, #fb9333);
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
@@ -662,7 +654,7 @@ span {
   align-items: center;
 }
 .L_text-pm2 {
-  color: var(--575757, #575757);
+  color: #585858;
   text-align: center;
   font-family: Poppins;
   font-size: 48px;
@@ -681,19 +673,13 @@ span {
   margin-top: 71px;
 }
 .L-m2-card-1 {
-  box-shadow: black 0 5px 25px -5px;
   width: 363.333px;
   height: 520px;
   border-radius: 50px;
-  background-image: url(./img/L_assasin-creed.jpeg);
+  background-image: url(./front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background\ 1.png);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-size: cover;
-  transition: 0.2s;
-}
-.L-m2-card-1:hover{
-  box-shadow: 0 0 0 0;
 }
 .L_m2-text-folder {
   width: 260px;
@@ -705,7 +691,7 @@ span {
   margin-top: 350px;
 }
 .L-card-text-1m2 {
-  color: var(--ffffff, #ffffff);
+  color: var(--ffffff, #fff);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -713,7 +699,7 @@ span {
   line-height: 130%;
 }
 .L-card-texr-2m2 {
-  color: var(--ffffff, #f8f9ff);
+  color: var(--ffffff, #fff);
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
@@ -721,38 +707,25 @@ span {
   line-height: 130%;
 }
 .L-m2-card-2 {
-  box-shadow: black 0 5px 25px -5px;
   width: 363.333px;
   height: 520px;
   border-radius: 50px;
-  background-image: url(./img/L-crysis-ilya.jpg);
+  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\ 1.png);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-size: cover;
-  background-position: -80px;
-  transition: 0.2s;
-}
-.L-m2-card-2:hover{
-  box-shadow: 0 0 0 0;
 }
 .L-m2-card-3 {
-  box-shadow: black 0 5px 25px -5px;
   width: 363.333px;
   height: 520px;
   border-radius: 50px;
-  background-image: url(./img/i4FlhzJYBe.jpg);
+  background-image: url(./top-view-fruity-salad-with-fresh-sliced-fruits\ 2.png);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-size: cover;
-  transition: 0.2s;
-}
-.L-m2-card-3:hover{
-  box-shadow: 0 0 0 0;
 }
 .L-m2-span {
-  color: rgb(0, 20, 81);
+  color: #fb9333;
   text-align: center;
   font-family: Poppins;
   font-size: 48px;
@@ -896,34 +869,13 @@ ion-icon {
   flex-direction: column;
   justify-content: space-between;
 }
-.V_box__txt-1 {
-  color: #585858;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-span {
-  color: var(--fb-9333, #fb9333);
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-.V_box__txt-2 {
-  color: var(--575757, #575757);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
+.V_box__logo {
+  width: 170px;
 }
 .V_section-1__txt {
   color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
@@ -936,7 +888,7 @@ span {
   justify-content: space-between;
 }
 .V_section-2__txt-1 {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -984,7 +936,7 @@ span {
   align-items: flex-start;
 }
 .V_section-3__txt {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -1052,4 +1004,26 @@ span {
   font-weight: 400;
   line-height: 150%; /* 24px */
   width: 192px;
+}
+
+.Y_video {
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Ubi_txt {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+}
+.Y_ubisoft_video {
+  border-radius: 20px;
 }
