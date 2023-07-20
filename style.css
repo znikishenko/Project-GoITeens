@@ -8,6 +8,7 @@
   text-decoration: none;
   box-sizing: border-box;
   list-style: none;
+  
 }
 body {
   width: 1920px;
@@ -140,6 +141,8 @@ span {
   color: #ffffff;
   cursor: pointer;
 }
+
+
 .box__but:nth-child(4) {
   width: 192px;
   height: 68px;
@@ -259,6 +262,10 @@ span {
   height: 134px;
 }
 
+.Y_frame_ubi{
+  width: 100px;
+}
+
 .Y_txt-1 {
   font-family: "Poppins";
   font-size: 48px;
@@ -300,9 +307,9 @@ span {
 .Y_card {
   width: 365px;
   height: 468px;
-  border: 1px solid #fff0da;
+  border: 1px solid #130221;
   border-radius: 20px;
-  box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2);
+  box-shadow: 0px 50px 80px -30px rgba(25, 5, 58, 0.2);
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -368,12 +375,12 @@ span {
     #fff6ea 0%,
     rgba(255, 232, 199, 0.5) 100%
   );
-  width: 99%;
+  width: 100%;
   height: 682px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 .L_box-1 {
   width: 415px;
