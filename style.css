@@ -868,34 +868,13 @@ ion-icon {
   flex-direction: column;
   justify-content: space-between;
 }
-.V_box__txt-1 {
-  color: #585858;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-span {
-  color: var(--fb-9333, #fb9333);
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-.V_box__txt-2 {
-  color: var(--575757, #575757);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
+.V_box__logo {
+  width: 170px;
 }
 .V_section-1__txt {
   color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
@@ -908,7 +887,7 @@ span {
   justify-content: space-between;
 }
 .V_section-2__txt-1 {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -956,7 +935,7 @@ span {
   align-items: flex-start;
 }
 .V_section-3__txt {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
