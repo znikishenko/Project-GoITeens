@@ -8,11 +8,11 @@
   text-decoration: none;
   box-sizing: border-box;
   list-style: none;
-  
 }
 body {
   width: 1920px;
   height: 1080px;
+  overflow-x: hidden;
 }
 .header {
   width: 1440px;
@@ -102,17 +102,14 @@ span {
   color: #fff;
 }
 .main__header {
-  width: 1170px;
-  height: 750px;
-  gap: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
 .section-1 {
   width: 590px;
   height: 709px;
-  gap: 88px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -139,9 +136,7 @@ span {
   font-weight: 600;
   line-height: 21px;
   color: #ffffff;
-  cursor: pointer;
 }
-
 
 .box__but:nth-child(4) {
   width: 192px;
@@ -149,13 +144,36 @@ span {
   padding: 24px 32px 24px 32px;
   border-radius: 100px;
   gap: 16px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0);
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
   border: 2px solid rgb(0, 20, 81);
   color: rgb(0, 20, 81);
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s;
+}
+.box__but:nth-child(4)::before {
+  position: absolute;
+  content: "";
+  width: 32%;
+  height: 100%;
+  border-radius: 100px;
+  background-color: rgb(0, 0, 0);
+  bottom: 0;
+  left: 0;
+  transition: 0.4s;
+  z-index: -1;
+  opacity: 0;
+}
+.box__but:nth-child(4):hover::before {
+  width: 100%;
+  opacity: 100;
+}
+.box__but:nth-child(4):hover {
+  color: #fff;
 }
 .box__txt-1 {
   color: #575757;
@@ -227,12 +245,9 @@ span {
   flex-shrink: 0;
 }
 .section__img {
-  width: 658.256px;
-  filter: drop-shadow(10px 5px 10px black);
-}
-.section__img-2 {
-  position: absolute;
-  display: none;
+  width: 640px;
+  z-index: 1;
+  transition: 1s;
 }
 .main {
   margin: 0 auto;
@@ -262,7 +277,7 @@ span {
   height: 134px;
 }
 
-.Y_frame_ubi{
+.Y_frame_ubi {
   width: 110px;
 }
 
@@ -728,7 +743,15 @@ span {
   width: 1170px;
   height: 552px;
   border-radius: 50px;
-  background: #fff1de;
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #f35 0%,
+    #43e 100%
+  );
+}
+
+ion-icon {
+  display: none;
 }
 .I_box {
   width: 700px;
@@ -744,7 +767,7 @@ span {
   align-items: center;
 }
 .I_txt-1 {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 0, 0));
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
@@ -756,8 +779,9 @@ span {
   height: auto;
 }
 .I_txt-2 {
-  color: #585858;
+  color: #ffffff;
   text-align: center;
+  /*   -webkit-text-stroke: 1px #008cff; */
   font-family: Poppins;
   font-size: 48px;
   font-style: normal;
@@ -766,7 +790,7 @@ span {
   letter-spacing: -0.96px;
 }
 .I_txt-3 {
-  color: var(--575757, #575757);
+  color: var(--575757, #ffffff);
   text-align: center;
   font-family: Poppins;
   font-size: 16px;
@@ -813,7 +837,7 @@ span {
   height: 64px;
   padding: 10px 16px;
   border-radius: 100px;
-  background: var(--fb-9333, #fb9333);
+  background: linear-gradient(to right, #f35, #43e);
   color: var(--ffffff, #fff);
   text-align: center;
   font-family: Poppins;
@@ -845,34 +869,13 @@ span {
   flex-direction: column;
   justify-content: space-between;
 }
-.V_box__txt-1 {
-  color: #585858;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-span {
-  color: var(--fb-9333, #fb9333);
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-.V_box__txt-2 {
-  color: var(--575757, #575757);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
+.V_box__logo {
+  width: 170px;
 }
 .V_section-1__txt {
   color: var(--2-b-2-b-2-b, #2b2b2b);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
@@ -885,7 +888,7 @@ span {
   justify-content: space-between;
 }
 .V_section-2__txt-1 {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -933,7 +936,7 @@ span {
   align-items: flex-start;
 }
 .V_section-3__txt {
-  color: var(--fb-9333, #fb9333);
+  color: var(--fb-9333, rgb(0, 20, 81));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
